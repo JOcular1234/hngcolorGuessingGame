@@ -4,7 +4,18 @@ body {
     background-color: #f4f4f4;
     padding: 10px;
 }
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+nav h2{
+    color: #3232de;
+}
+nav h2 span {
+    color: hsl(0, 93%, 55%);
 
+}
 #colorBox {
     width: 250px;
     height: 250px;
