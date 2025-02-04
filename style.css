@@ -33,7 +33,10 @@ nav h2 span {
     flex-wrap: wrap;    
     margin-bottom: 20px;
 }
-
+h1{
+    text-decoration: underline;
+    color: #333;
+}
 button {
     padding: 10px;
     border: none;
@@ -61,8 +64,14 @@ button:hover {
 }
 #newGameButton:hover {
     background-color: hsl(200, 100%, 20%);
-
 }
+#text2{
+    font-size: 2rem;
+    font-weight: 600;
+    font-weight: 600;
+    color: hsl(200, 100%, 20%);
+}
+
 .correct {
     animation: bounce 0.5s ease;
 }
@@ -122,7 +131,10 @@ button:hover {
 #text2{
     font-size: 2rem;
     font-weight: 600;
+    font-weight: 600;
+    color: #3232de;
 }
+
 #newGameButton {
     font-size: 2rem;
     font-weight: 600;
