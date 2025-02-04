@@ -12,9 +12,7 @@ let newGameButton = document.getElementById("newGameButton");
 
 
 function startGame() {
-    // Pick a random color
     targetColor = colors[Math.floor(Math.random() * colors.length)];
-     // Initially cover the target color with grey
      colorBox.style.backgroundColor = "grey";
      isColorRevealed = false; 
 console.log(targetColor);
