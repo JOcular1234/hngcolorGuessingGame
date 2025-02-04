@@ -2,7 +2,7 @@
 const colors = ["red", "blue", "green", "yellow", "purple", "orange"];
 
 let targetColor = "";
-let score = 0; 
+let score = 0; //handle score
 
 let colorBox = document.getElementById("colorBox");
 let colorOptions = document.getElementById("colorOptions");
@@ -10,7 +10,7 @@ let gameStatus = document.getElementById("gameStatus");
 let scoreDisplay = document.getElementById("score");
 let newGameButton = document.getElementById("newGameButton");
 
-
+//start game
 function startGame() {
     targetColor = colors[Math.floor(Math.random() * colors.length)];
      colorBox.style.backgroundColor = "grey";

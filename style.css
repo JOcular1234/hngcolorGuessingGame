@@ -11,10 +11,12 @@ nav{
 }
 nav h2{
     color: #3232de;
+    font-size: 3rem;
+
 }
 nav h2 span {
     color: hsl(0, 93%, 55%);
-
+    font-size: 3rem;
 }
 #colorBox {
     width: 250px;
@@ -22,7 +24,7 @@ nav h2 span {
     margin: 20px auto;
     border: 1px solid #333;
     border-radius: 20px;
-    background-color: grey;
+    background-color: hsl(0, 0%, 90%);
     transition: background-color 0.5s ease-in-out; 
 }
 
@@ -108,7 +110,7 @@ button:hover {
         font-weight: 600;
     }
     #colorBox {
-        width: 60%;
+        width: 40%;
         height: 40vh;       
     }
     #colorOptions {
